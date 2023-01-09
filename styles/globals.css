@@ -1,0 +1,146 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Gilroy', -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  /* font-size: 17px; */
+
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.pad-20 {
+  padding: 20px;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  max-width: 100vw;
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  html,
+  body {
+    font-size: 16px;
+  }
+
+  .mobileCol {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
+/* h1 {
+  font-size: 2.5em;
+} */
+
+/**
+Common weight mappings
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping
+**/
+
+/* @font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Gilroy/Gilroy-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/Gilroy/Gilroy-Bold.ttf") format("truetype");
+} */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+
+/*
+This is the color system of the entire application
+*/
+:root {
+  --red-strong: #fd3c3b;
+  --red-light: #fd3c3b40;
+  --black: #1a1a1d;
+  --grey: #7d7d97;
+  --white-pure: #fff;
+  --white-strong: #fefefe;
+  --white-mild: #1b1b1b50;
+  --white-light: #1d1d1d;
+  --dark-green: #04884a;
+
+  --black-strong: #050101;
+
+  --blue-strong: #060683;
+  --blue-pure: #000080;
+
+  --purple-light: #c4cbf4;
+}
+
+input:focus {
+  outline: 0px !important;
+  border: 1px solid var(--blue-pure);
+  border-radius: 90px;
+}
+
+/* *:focus {
+  outline: 1px solid var(--blue-pure);
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

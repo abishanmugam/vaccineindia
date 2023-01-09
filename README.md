@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## India Vaccine Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> We're building out a verified list of Vaccination Centers across the country so that you can get reliable information for getting a vaccine for you or your loved ones in a quick & easy manner.
 
-## Available Scripts
+### 👩‍💻 Contribution Guide 👨‍💻
 
-In the project directory, you can run:
+Developers looking to contribute to the project can start by filtering for [good-first-issues](https://github.com/IndiaVaccineIN/india-vaccine-frontend/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 
-### `npm start`
+We have a `dev` branch with the latest features and fixes. We request you to create a new branch for the Issue you are working on and after a review we will merge it with the `dev` branch. The `master` branch contains the production-ready code that is ready to be deployed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Join our group on Discord to engage with the developers and contributors working on this project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img height="50px" src="https://raw.githubusercontent.com/IndiaVaccineIN/india-vaccine-frontend/master/public/assets/join_discord.svg"/>
 
-### `npm test`
+> After joining the group make sure to introduce yourself in the #intros channel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Getting the application running
 
-### `npm run build`
+The frontend application is built with [NextJS](https://nextjs.org) and can be locally spun up using the following command
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Make sure the dependencies are installed
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run the application in development mode
+# The application will be running at http://localhost:3000
+npm run dev
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deployments
 
-### `npm run eject`
+We have [continuous deployment](https://vercel.com/docs/git/vercel-for-github) enabled for the project with preview URLs generated for each Pull Request
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="945" alt="image" src="https://user-images.githubusercontent.com/27439197/116805110-adadbb00-ab41-11eb-9950-747c31a7d57b.png">
